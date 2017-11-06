@@ -8,16 +8,16 @@ first_rental = Rental.new(jaws, 3)
 second_rental = Rental.new(et, 5)
 third_rental = Rental.new(anpanman, 2)
 
-snowmi = Customer.new("Snowmi")
+test = Customer.new("test")
 
-snowmi.add_rental(first_rental)
+test.add_rental(first_rental)
 puts "----- Only first_rental -----"
-puts snowmi.statement
+puts test.statement
 
-snowmi.add_rental(second_rental)
+test.add_rental(second_rental)
 puts "----- Add second_rental -----"
-puts snowmi.statement
+puts test.statement
 
-snowmi.add_rental(third_rental)
+test.add_rental(third_rental)
 puts "----- Add third_rental -----"
-puts snowmi.statement
+puts test.statement
